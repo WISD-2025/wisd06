@@ -8,21 +8,20 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-<<<<<<< HEAD
 Route::get('/bb/b1', function () {
     return view('bb.b1');
 });
 
 Route::get('/bb/b2', function () {
     return view('bb.b2');
-=======
+});
+
 Route::get('/aa/a1', function () {
     return view('aa.a1');
 });
 
 Route::get('/aa/a2', function () {
     return view('aa.a2');
->>>>>>> 6c5b12df52fd6f7966ff31ac96e8d982fdaa5753
 });
 
 Route::view('dashboard', 'dashboard')
