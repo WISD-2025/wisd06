@@ -24,6 +24,12 @@ Route::get('/aa/a2', function () {
     return view('aa.a2');
 });
 
+Route::get('/dd/d1', function () {
+    return view('dd.d1');
+});
+
+
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
